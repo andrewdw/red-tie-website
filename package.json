@@ -2,9 +2,9 @@
   "name": "red-tie-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/andrewdw/red-tie-website/issues"
   },
-  "homepage": "https://github.com/andrewdw/red-tie-website#readme"
+  "homepage": "https://github.com/andrewdw/red-tie-website#readme",
+  "dependencies": {
+    "ejs": "^2.5.2"
+  }
 }
